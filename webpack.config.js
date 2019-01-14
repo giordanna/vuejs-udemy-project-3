@@ -6,8 +6,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    baseUrl: process.env.NODE_ENV === 'production'
-    ? '/vuejs-udemy-project-3/' : '/',
     filename: 'build.js'
   },
   module: {
